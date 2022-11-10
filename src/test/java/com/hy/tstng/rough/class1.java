@@ -1,11 +1,18 @@
 package com.hy.tstng.rough;
 
-public class class1 {
+import org.testng.annotations.Test;
+
+import com.hy.tstng.helper.TestHelper;
+
+public class class1 extends TestHelper {
 	
-	public static void main(String[] args) {
+	@Test
+	public void method1() {
 		
-		System.out.println("Main Method");
+		System.out.println("Log in to Facebook");
 		
 	}
+	
+	
 
 }
