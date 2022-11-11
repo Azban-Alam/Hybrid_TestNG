@@ -1,11 +1,11 @@
-package com.hy.tstng.utils;
+package com.hybrid.testng.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import com.hy.tstng.helper.TestHelper;
+import com.hybrid.testng.helper.TestHelper;
 
 public class TestUtils extends TestHelper {
 	

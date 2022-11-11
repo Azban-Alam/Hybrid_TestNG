@@ -1,4 +1,6 @@
-package com.hy.tstng.selenium.drivers;
+package com.hybrid.testng.selenium.drivers;
+
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
@@ -17,13 +19,13 @@ public class ChromeBrowserDriver implements Driver {
 		ChromeOptions options= new ChromeOptions();
 		options.addArguments("--disable-notifications");
 		options.setPageLoadStrategy(PageLoadStrategy.NONE);
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Hybrid_TestNG\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Hybrid_TestNG\\src\\test\\resources\\Drivers\\chromedriver.exe");
 		
 		WebDriver driver= new ChromeDriver();
 		
-//		driver.manage().window().maximize();
-//		driver.manage().deleteAllCookies();
-//		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		return driver;
 	}
 

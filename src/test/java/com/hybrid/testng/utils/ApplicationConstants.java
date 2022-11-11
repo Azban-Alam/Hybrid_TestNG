@@ -1,4 +1,4 @@
-package com.hy.tstng.utils;
+package com.hybrid.testng.utils;
 
 public class ApplicationConstants {
 	

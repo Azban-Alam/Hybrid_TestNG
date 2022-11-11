@@ -5,4 +5,4 @@
  * @author user
  *
  */
-package com.hy.tstng.rough;
+package com.hybrid.testng.rough;

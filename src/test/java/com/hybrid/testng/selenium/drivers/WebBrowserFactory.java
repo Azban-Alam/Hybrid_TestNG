@@ -1,6 +1,6 @@
-package com.hy.tstng.selenium.drivers;
+package com.hybrid.testng.selenium.drivers;
 
-import com.hy.tstng.utils.ApplicationConstants;
+import com.hybrid.testng.utils.ApplicationConstants;
 
 public class WebBrowserFactory {
 	

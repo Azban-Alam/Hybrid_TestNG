@@ -1,4 +1,4 @@
-package com.hy.tstng.helper;
+package com.hybrid.testng.helper;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,10 +11,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
-import com.hy.tstng.selenium.drivers.Driver;
-import com.hy.tstng.selenium.drivers.WebBrowserFactory;
-import com.hy.tstng.utils.ApplicationConstants;
-import com.hy.tstng.utils.TestUtils;
+import com.hybrid.testng.selenium.drivers.Driver;
+import com.hybrid.testng.selenium.drivers.WebBrowserFactory;
+import com.hybrid.testng.utils.ApplicationConstants;
+import com.hybrid.testng.utils.TestUtils;
 
 public class TestHelper {
 

@@ -1,4 +1,4 @@
-package com.hy.tstng.selenium.drivers;
+package com.hybrid.testng.selenium.drivers;
 
 import org.openqa.selenium.WebDriver;
 

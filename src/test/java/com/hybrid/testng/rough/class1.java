@@ -1,8 +1,8 @@
-package com.hy.tstng.rough;
+package com.hybrid.testng.rough;
 
 import org.testng.annotations.Test;
 
-import com.hy.tstng.helper.TestHelper;
+import com.hybrid.testng.helper.TestHelper;
 
 public class class1 extends TestHelper {
 	
