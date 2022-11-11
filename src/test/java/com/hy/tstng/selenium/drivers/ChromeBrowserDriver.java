@@ -2,6 +2,7 @@ package com.hy.tstng.selenium.drivers;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class ChromeBrowserDriver implements Driver {
@@ -18,6 +19,7 @@ public class ChromeBrowserDriver implements Driver {
 		options.setPageLoadStrategy(PageLoadStrategy.NONE);
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Hybrid_TestNG\\Drivers\\chromedriver.exe");
 		
+		WebDriver driver= new ChromeDriver();
 		
 //		driver.manage().window().maximize();
 //		driver.manage().deleteAllCookies();
