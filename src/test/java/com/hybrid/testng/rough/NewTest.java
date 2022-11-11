@@ -1,4 +1,4 @@
-package com.hy.tstng.rough;
+package com.hybrid.testng.rough;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
